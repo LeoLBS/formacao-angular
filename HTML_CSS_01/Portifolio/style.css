@@ -1,4 +1,27 @@
 body{
-    background-color: black;
-    color: white;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #297ff0;
+    height: 100vh;
+}
+
+.tituloDestaque{
+    color: #214da3;
+}
+
+#linkedin{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #6749e9;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#github{
+
+}
+
+#divImagemLeo{
+    position: static;
 }
