@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Krona+One&display=swap');
+
 body{
     box-sizing: border-box;
     background-color: #000000;
-    color: #297ff0;
+    color:#ffffff;
     height: 100vh;
 }
 
@@ -9,19 +11,60 @@ body{
     color: #214da3;
 }
 
-#linkedin{
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    font-family: "Krona One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo_titulo {
+    font-size: 36px;
+}
+
+.apresentacao__quadro__texto {
+    font-size: 24px;
+    font-family: "Fira Sans", sans-serif;
+    padding: 15px;
+    text-align: justify;
+}
+
+.apresentacao__quadro {
+    border: 5px;
+    border-radius: 21px;
     border-style: solid;
-    border-width: 4px;
-    border-color: #6749e9;
-    padding: 3px;
-    border-radius: 5px;
-    font-size: 30px;
+    border-color: #9f9f9f;
 }
 
-#github{
-
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
 }
 
-#divImagemLeo{
-    position: static;
+.apresentacao__links_link {
+    background-color: #297ff0;
+    width: 230px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+}
+
+.imagemhome {
+    border: 5px;
+    border-radius: 21px;
+    border-style: solid;
+    border-color: #cac4c4;
 }
